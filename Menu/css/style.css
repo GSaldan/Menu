@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans&display=swap');
+
+/*reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 1.5rem;
+    font-family: 'Public Sans', sans-serif;
+    text-align: center;
+}
+
+/*menu*/
+nav {
+    border: 1px solid #333;
+    border-radius: 2rem;
+    margin: 0 auto 2rem;
+    max-width: 600px;
+    font-size: 3rem;
+    line-height: 7rem;
+}
+
+/*menu title*/
+h2 {
+    padding: 1rem;
+    background: rgb(255, 204, 0);
+    border-radius: 2rem 2rem 0 0;
+}
+
+/*list elements border*/
+li {
+    border-top: 1px solid #333;
+}
+
+/*links inside the menu*/
+li a,
+li a:visited {
+    text-decoration: none;
+    color: #333;
+    display: block;
+}
+
+li a:hover,
+li a:focus {
+    background: #333;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+
+li:last-child a {
+    border-radius: 0 0 2rem 2rem;
+}
+
+/*make marker invisible*/
+::marker {
+        content: none;
+}
+
